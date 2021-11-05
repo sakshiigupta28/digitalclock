@@ -1,0 +1,250 @@
+.background-color{
+    background-color: #3D087B;
+    
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+
+.left-bottom-container{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 124px;
+    
+}
+
+
+.logo{
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.logo-text{
+    color: #3D087B;
+    font-family: manrope;
+    font-weight: 600px;
+    display: inline-block;
+    position: absolute;
+    padding: 35px;
+}
+
+#select-time{
+   width: 250px;
+   height: 30px;
+   padding-left: 30px;
+   border-radius: 5px;
+   color: #727070;
+   border-color: #EDEDED;   
+}
+
+#select-time1{
+    width: 250px;
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    color: #727070;
+    border-color: #EDEDED;   
+ }
+
+ #select-time2{
+    width: 250px;
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    color: #727070;
+    border-color: #EDEDED;   
+ }
+
+
+.left-bottom-container-data{
+    grid-template-rows: 50px 50px 50px;
+}
+
+#left-bottom-sec-container{
+    width: 570px;
+    height: 80px;
+    margin-left: 124px;
+    color:white;
+    margin-top: 20px;
+    font-size: 40px;
+    align-content: space-between;
+    border-radius: 8px;
+    background-color: #855db3;
+    padding-left: 30px;
+    padding-top: 20px;
+    opacity: 0.50;
+    font-family: Lobster Two;
+}
+
+#party{
+    width: 230px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 124px;
+    margin-top: 20px;
+    font-family: manrope;
+    padding-left: 15px;
+    font-size:22px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: linear-gradient(to left,#8A11BF,#CB52F8);
+}
+
+
+
+.image-clock{
+    margin-top: 60px;
+    margin-left: 124px;
+    display: inline-block;
+}
+
+.white-box{
+    width: 536px;
+    height: 130px;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: white; 
+    position: relative;
+
+}
+
+.white-box-2{
+    width: 500px;
+    height: 120px;
+    top: 10%;
+    margin-left: 40px;
+    opacity: 0.70;
+    background-color: palevioletred;
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1;
+}
+
+.white-box-3{
+    width: 450px;
+    height: 120px;
+    opacity: 0.40;
+    top: 13%;
+    margin-left: 65px;
+    background-color: rgb(174, 115, 214);
+    border-radius: 7px;
+    position: absolute;
+    z-index: -2;
+}
+
+.time-heading{
+    font-family: 'Manrope', sans-serif;
+    color: #3d087b;
+    display: inline;
+    padding-left: 35px;
+    font-size: 20px;
+   
+}
+
+.time-symbol{
+    display: inline ;
+    color: #8A11BF;
+    font-weight: 900px;
+    font-size: 30px;
+
+}
+
+#hours{
+    background-image: url('./../images/light.png');
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    font-family: manrope;
+    color: #5F0089;
+    font-size: 35px;
+    
+}
+
+
+#minutes{
+    background-image: url('./../images/light.png');
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    font-family: manrope;
+    color: #5F0089;
+    font-size: 35px;
+    
+    
+}
+
+#seconds{
+    background-image: url('./../images/light.png');
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    font-family: manrope;
+    color: #5F0089;
+    font-size: 35px;
+    
+
+}
+
+#AM-PM{
+    background-image: url('./../images/lightpurple.png');
+    display: inline-flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 80px;
+    height: 80px;
+    font-family: manrope;
+    color: #5F0089;
+    font-size: 35px;  
+}
+
+#hour{
+    font-family: manrope;
+    color: #5F0089;
+    font-size: 15px;
+    display: inline-block;
+    align-items: flex-end;
+}
+
+#right-bottom1{
+    width: 536px;
+    height: 100px;
+    border-radius: 7px;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#right-bottom2{
+    background-image: url('./../images/morning.png');
+    width: 536px;
+    height: 474px;
+    border-radius: 7px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#image-text{
+    padding-top: 35px;
+    padding-left: 40px;
+    font-family: Lobster Two;
+    color:#8E53F0;
+    font-size: 33px;
+
+}

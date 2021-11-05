@@ -1,0 +1,143 @@
+
+.left-container-1{
+    top: 259px;
+    left: 92px;
+    width: 359px;
+    height: 111px;
+    margin-top: 60px;
+    margin-left: 124px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.icon{
+    color: rgb(68, 64, 64);
+    font-family: manrope;
+    font-weight: 7px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.icon1{
+    padding-top: 20px;
+    padding-left: 60px;
+    display: inline-block;
+}
+
+
+
+.left-container-3{
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 124px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 200px;
+}
+
+.left-container-3-opt{
+    height: 49px;
+    font-family: manrope;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.left-container-3-opt-col{
+    height: 49px;
+    font-family: manrope;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    background-color: #DDF5FF;
+    color: #00A5ECDE;
+}
+
+.left-container-bottom{
+    margin-top: 30px;
+    margin-left: 124px;
+    background-color: #DDF5FF;
+    width: 300px;
+    height: 40px;
+    font-family: manrope;
+    font-weight: 15px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    color: #00A5ECDE;
+    padding-left: 15px;
+}
+
+.white-box1{
+    width: 536px;
+    height: 130px;
+    border-radius: 7px;
+    margin-top: 60px;
+    margin-left: 124px;
+    display: inline-block;
+    background-color: white; 
+    position: relative;
+
+}
+
+.white-box2{
+    width: 450px;
+    height: 120px;
+    top: 17%;
+    margin-left: 40px;
+    opacity: 0.70;
+    background-color: palevioletred;
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.white-box3{
+    width: 400px;
+    height: 120px;
+    opacity: 0.40;
+    top: 25%;
+    margin-left: 65px;
+    background-color: rgb(174, 115, 214);
+    border-radius: 7px;
+    position: absolute;
+    z-index: -2;
+}
+
+.right-container-bottom0{
+    background-image: url('./../images/morning.png');
+    width: 532px;
+    height: 474px;
+    border-radius: 7px;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+.right-container-bottom1{
+    background-image: url('./../images/wakeup1.jpg');
+    width: 532px;
+    height: 474px;
+    border-radius: 7px;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    
+
+}
+
+.right-container-bottom2{
+    background-image: url('./../images/night.jpg');
+    width: 536px;
+    height: 474px;
+    border-radius: 7px;
+    margin-top: 80px;
+    margin-left: 20px;
+    background-color: white;
+}
