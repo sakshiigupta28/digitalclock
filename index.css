@@ -54,14 +54,14 @@
     border-color: #EDEDED;   
  }
 
- #select-time2{
+#select-time2{
     width: 250px;
     height: 30px;
     padding-left: 30px;
     border-radius: 5px;
     color: #727070;
     border-color: #EDEDED;   
- }
+}
 
 
 .left-bottom-container-data{
@@ -91,7 +91,7 @@
     margin-left: 124px;
     margin-top: 20px;
     font-family: manrope;
-    padding-left: 15px;
+    padding-left: 25px;
     font-size:22px;
     display: flex;
     align-items: center;
@@ -161,7 +161,7 @@
 }
 
 #hours{
-    background-image: url('./../images/light.png');
+    background-image: url('./light.png');
     display: inline-flex;
     align-items: center;
     margin-top: 25px;
@@ -175,7 +175,7 @@
 
 
 #minutes{
-    background-image: url('./../images/light.png');
+    background-image: url('./light.png');
     display: inline-flex;
     align-items: center;
     margin-top: 25px;
@@ -189,7 +189,7 @@
 }
 
 #seconds{
-    background-image: url('./../images/light.png');
+    background-image: url('./light.png');
     display: inline-flex;
     align-items: center;
     margin-top: 25px;
@@ -203,7 +203,7 @@
 }
 
 #AM-PM{
-    background-image: url('./../images/lightpurple.png');
+    background-image: url('./lightpurple.png');
     display: inline-flex;
     align-items: center;
     margin-top: 25px;
@@ -232,7 +232,7 @@
 }
 
 #right-bottom2{
-    background-image: url('./../images/morning.png');
+   /* background-image: url('./morning.png'); */
     width: 536px;
     height: 474px;
     border-radius: 7px;

@@ -6,22 +6,22 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./stylesheet/index.css">
+        <link rel="stylesheet" href="./index.css">
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700" rel="stylesheet">
     </head>
     <body class="background-color">
         <div class="main-grid">
             <div>
-                <div> <img class="image-clock" src="./images/clocklogo.png" alt=""></div>
+                <div> <img class="image-clock" src="./clocklogo.png" alt=""></div>
                 <div>
                     <div class="left-bottom-container">
                         <div class="left-bottom-container-data">
-                            <img class="logo" src="./images/sun.png" alt="">
+                            <img class="logo" src="./sun.png" alt="">
                             <span class="logo-text"> 
                                 <label>Set Wake Up Time</label>
                                 &nbsp; &nbsp; &nbsp; &nbsp;
-                                <select id="select-time">
+                                <select id="select-time" >
                                     <option value="1">12am - 1am</option>
                                     <option value="2">1am - 2am</option>
                                     <option value="3">2am - 3am</option>
@@ -51,7 +51,7 @@
                             </span>
                         </div>
                         <div class="left-bottom-container-data">
-                            <img class="logo" src="./images/eatlogo.png" alt="">
+                            <img class="logo" src="./eatlogo.png" alt="">
                             <span class="logo-text">
                                 <label> Set Lunch Time</label>
                                 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -85,7 +85,7 @@
                             </span>    
                         </div>
                         <div class="left-bottom-container-data">
-                            <img class="logo" src="./images/snooze.png" alt="">
+                            <img class="logo" src="./snooze.png" alt="">
                             <span class="logo-text">
                                 <label> Set Nap Time</label>
                                 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -119,8 +119,10 @@
                         </div>
                     </div>
                 </div>
-                <div id="party" onclick="settime()">
+                <div>
+                    <button id="party" onclick="settime()" > 
                     SET TIME
+                    </button>
                 </div>
             </div>
             <div>
@@ -128,13 +130,14 @@
                     <div class="inner-white-box">
                         <div class="time-heading">TIME</div>
                         &nbsp;
-                            <span id="hours"> 00 </span>
+                            <span id="hours" > 0</span>
                             <span class="time-symbol">:</span>
-                            <span id="minutes">00</span>
+                            <span id="minutes"> 0</span>
                             <span class="time-symbol">:</span>
-                            <span id="seconds">00</span>
+                            <span id="seconds"> 0</span>
                             &nbsp; &nbsp;
                             <span id="AM-PM"> AM </span>
+                            
                     </div>
                 </div>
                 <div class="white-box-2"></div>
@@ -143,11 +146,9 @@
                     <div id="right-bottom1"></div>
                     <div id="right-bottom2"></div>
                 </div>
-                <!-- <div id="right-container-bottom">
-                    <div id="image-text"> </div>
-                </div> -->
             </div>
         </div>
+        <!--         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
         <script src="./index.js"></script>
     </body>
 </html>
