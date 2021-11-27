@@ -9,15 +9,12 @@ function clock(){
     var minutes = document.getElementById("minutes");
     var seconds = document.getElementById("seconds");
     var ampm = document.getElementById("AM-PM");
-    
+    var am = "AM"
 
-    
-    if(hh == 0){
-        hh = 12;
-    }
+   
     if(hh >= 12){
         hh = hh - 12;
-        ampm = "PM";
+        am = "PM";
      }
 
    hh = (hh < 10) ? "0" + hh : hh;
@@ -29,6 +26,7 @@ function clock(){
     hours.innerHTML = hh;
     minutes.innerHTML = mm;
     seconds.innerHTML = ss;
+    ampm.innerHTML = am;
 
 
 }
