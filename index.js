@@ -1,36 +1,36 @@
 function clock(){
+    
+    var date = new Date(); 
+    var hh = date.getHours();
+    var mm = date.getMinutes();
+    var ss = date.getSeconds();
+
     var hours = document.getElementById("hours");
     var minutes = document.getElementById("minutes");
     var seconds = document.getElementById("seconds");
     var ampm = document.getElementById("AM-PM");
     
-  
-
-    var time =  new Date();
-    var a = time.getHours();
-    var b = time.getMinutes();
-    var c = time.getSeconds();
-
-
-    if(a > 12){
-        a = a-12;
-    }
-  
-    if(a == 0){
 
     
+    if(hh == 0){
+        hh = 12;
     }
+    if(hh >= 12){
+        hh = hh - 12;
+        ampm = "PM";
+     }
 
-    a = (a < 10) ? "0" + a : a;
-    b = (b < 10) ? "0" + b : b;
-    c = (c < 10) ? "0" + c : c;
+   hh = (hh < 10) ? "0" + hh : hh;
+   mm = (mm < 10) ? "0" + mm : mm;
+   ss = (ss < 10) ? "0" + ss : ss;
 
-
-    hours.innerHTML = a;
-    minutes.innerHTML = b;
-    seconds.innerHTML = c;
     
-   
+
+    hours.innerHTML = hh;
+    minutes.innerHTML = mm;
+    seconds.innerHTML = ss;
+
+
 }
 
 
@@ -38,27 +38,35 @@ function clock(){
 setInterval (clock,1000);
 
 function settime() {
-     console.log("hekopohu");
     var set = document.getElementById("select-time").value;
-    var hour = new Date().getHours;
+    var hour = new Date().getHours();
 
-    if(set == hour) {
-        document.getElementById("right-bottom2").style.backgroundImage = "url(morning.png)";
-        document.getElementById("right-bottom1").innerHTML="IT'S MORNING TIME";
+    if(Number(set) == hour) {
+        document.getElementById("right-bottom2").style.backgroundImage = "url(wakeup1.jpg)";
+        document.getElementById('right-bottom1').innerHTML="GOOD MORNING!!!!!";
     }
-};
 
-/*
-party.addEventListener("click" , settime)
+    
 
-function settime(){
-    //console.log("hekopohu");
-    var set = document.getElementById("select-time").value;
-    var Hour = new Date().getHours();
+    {var set = document.getElementById("select-time1").value;
+    var hour = new Date().getHours();
 
-    if(set == Hour){
+    if(Number(set) == hour) {
         document.getElementById("right-bottom2").style.backgroundImage = "url(morning.png)";
         document.getElementById('right-bottom1').innerHTML="LET'S HAVE LUNCH!!!";
     }
 };
-    */
+
+
+    {var set = document.getElementById("select-time2").value;
+    var hour = new Date().getHours();
+
+    if(Number(set) == hour) {
+        document.getElementById("right-bottom2").style.backgroundImage = "url(night.jpg)";
+        document.getElementById('right-bottom1').innerHTML="GOOD NIGHT!!!!";
+    }
+};
+};
+
+
+

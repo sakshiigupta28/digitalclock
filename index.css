@@ -160,6 +160,7 @@
 
 }
 
+
 #hours{
     background-image: url('./light.png');
     display: inline-flex;
@@ -213,14 +214,7 @@
     color: #5F0089;
     font-size: 35px;  
 }
-
-#hour{
-    font-family: manrope;
-    color: #5F0089;
-    font-size: 15px;
-    display: inline-block;
-    align-items: flex-end;
-}
+   
 
 #right-bottom1{
     width: 536px;
@@ -228,11 +222,16 @@
     border-radius: 7px;
     margin-top: 80px;
     margin-left: 20px;
+    text-align: center;
+    padding-top: 45px;
+    color: #5F0089;
     background-color: white;
+    font-family: Lobster Two;
+    font-size: 35px;
 }
 
 #right-bottom2{
-   /* background-image: url('./morning.png'); */
+    background-image: url("clock.png");
     width: 536px;
     height: 474px;
     border-radius: 7px;
